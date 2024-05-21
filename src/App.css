@@ -1,0 +1,155 @@
+.homePageWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  height:100vh;
+}
+
+.formWrapper{
+  background-color: #1a1d2a;
+  padding:20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer{
+  position: fixed;
+  bottom: 5px;  
+}
+
+footer a{
+  text-decoration: underline;
+  color:rgb(95, 179, 248);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainLabel{
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.homePageLogo{
+  height:100px;
+  margin-bottom: 10px;
+}
+
+.inputBox {
+  padding:10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background: #eee;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.joinBtn{
+  background: rgb(95, 179, 248);
+  width: 100px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.joinBtn:hover{
+  background:rgb(150, 204, 248) ;
+}
+
+.createInfo{
+  margin:0 auto;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.createNewBtn{
+  color: rgb(95, 179, 248);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(95, 179, 248);
+}
+
+.createNewBtn:hover, footer a:hover{
+  color:rgb(150, 204, 248) ;
+  border-color: rgb(150, 204, 248);
+}
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  height: 100vh;
+}
+
+.aside{
+  background: #1a1d2a;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.asideInner{
+  flex:1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName{
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid azure;
+  padding-bottom: 10px;
+}
+
+.logoImage{
+  height: 88px;
+}
+
+.leaveBtn{
+  background: rgb(95, 179, 248);
+  /* width: 100px; */
+  font-weight: bold;
+  margin-top: 20px;
+}
+.leaveBtn:hover{
+  background:rgb(195, 65, 50) ;
+  color: #eee;
+}
+.realtime-editor{
+  height: 100vh;
+}
+.CodeMirror {
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
