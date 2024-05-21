@@ -4,7 +4,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 import EditorPage from './pages/editorPage';
 import { Toaster } from 'react-hot-toast';
+import { useEffect } from "react";
+
+  // useEffect(() => {
+  //   document.title = "My new title"
+  // }, [])
+
 function App() {
+  useEffect(() => {
+    document.title = "ISTE-EnC0de";
+  }, [])
   return (
     <>
       <div>
